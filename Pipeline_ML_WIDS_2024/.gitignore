@@ -1,0 +1,14 @@
+# Ignorar datasets grandes
+Dataset/*.csv
+!data/README.md    # permite un archivo explicando cómo obtener los datos
+
+# Ignorar contenido de MLflow
+mlruns/
+!mlruns/README.md   # <- excepto el README
+
+# Ignorar sqlite de MLflow
+mlflow.db
+
+# Python cache
+__pycache__/
+*.pyc
