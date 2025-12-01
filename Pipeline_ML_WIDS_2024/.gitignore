@@ -1,6 +1,6 @@
 # Ignorar datasets grandes
 Dataset/*.csv
-!data/README.md    # permite un archivo explicando cómo obtener los datos
+!Dataset/README.md    # permite un archivo explicando cómo obtener los datos
 
 # Ignorar contenido de MLflow
 mlruns/
