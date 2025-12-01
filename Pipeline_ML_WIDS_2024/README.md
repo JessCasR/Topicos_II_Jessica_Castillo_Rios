@@ -32,7 +32,6 @@ Incluye:
 - Aplicación de **SMOTE**  
 - Construcción del `ColumnTransformer`
 
----
 
 ### Modelos y Evaluación (`module_ml.py`)
 
@@ -58,14 +57,14 @@ Métricas calculadas:
 
 Todos los modelos se registran automáticamente en MLflow.
 
-### Orquestación (`main.py`)
+### Ejecución (`main.py`)
 
 El archivo `main.py`:
 
 - Ejecuta el preprocesamiento  
 - Entrena todos los modelos  
 - Genera una tabla comparativa  
-- Guarda una gráfica y un csv con los resultados  
+- Guarda gráficas y un csv con los resultados  
 - Registra cada experimento con MLflow  
 - Exporta los resultados a la carpeta `outputs/`
 
@@ -75,7 +74,7 @@ El pipeline genera:
 
 - Una tabla comparativa de métricas en consola  
 - Un archivo CSV con los resultados  
-- Una gráfica comparativa
+- Gráficas comparativas por cada métrica
 
 ## Estructura
 
@@ -93,8 +92,8 @@ El pipeline genera:
 ## Instrucciones
 
 1. Clona el repositorio:
-    a. `git clone https://github.com/JessCasR/Topicos_II_Jessica_Castillo_Rios`
-    b.  cd Pipeline_ML_WIDS_2024
+    - `git clone https://github.com/JessCasR/Topicos_II_Jessica_Castillo_Rios`
+    -  `cd Pipeline_ML_WIDS_2024`
 2. Instala las dependencias: `pip install -r requirements.txt`.
 3. Corre el siguiente comando en consola para ejecutar el pipeline: `python main.py`.
 
