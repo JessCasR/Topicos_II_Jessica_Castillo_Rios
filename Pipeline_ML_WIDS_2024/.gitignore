@@ -3,7 +3,7 @@ Dataset/*.csv
 !Dataset/README.md 
 
 # Ignorar contenido de MLflow
-mlruns/
+mlruns/*
 !mlruns/README.md
 
 # Ignorar sqlite de MLflow
