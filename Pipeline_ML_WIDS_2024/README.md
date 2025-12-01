@@ -78,22 +78,22 @@ El pipeline genera:
 
 ## Estructura
 
-- `data/`
+- `dataset/`
+- `mlruns/`: carpeta donde MLflow guarda los experimentos.
+- `outputs/`: carpeta donde se guardan los resultados.
 - `src/`:
+  - `__init__.py`
   - `module_data.py`: carga, limpieza y preprocesamiento de datos.
   - `module_ml.py`: entrenamiento, evaluación y tracking de modelos.
-  - `__init__.py`
-- `mlruns/`: carpeta donde MLflow guarda los experimentos.
 - `main.py`: script principal del pipeline.
-- `requirements.txt`: dependencias del proyecto.
 - `README.md`
-
+- `requirements.txt`: dependencias del proyecto.
 
 ## Instrucciones
 
 1. Clona el repositorio:
     - `git clone https://github.com/JessCasR/Topicos_II_Jessica_Castillo_Rios`
-    -  `cd Pipeline_ML_WIDS_2024`
+    - `cd Pipeline_ML_WIDS_2024`
 2. Instala las dependencias: `pip install -r requirements.txt`.
 3. Corre el siguiente comando en consola para ejecutar el pipeline: `python main.py`.
 

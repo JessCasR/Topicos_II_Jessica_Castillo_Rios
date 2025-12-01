@@ -54,8 +54,8 @@ class Dataset:
 
     def load_raw(self) -> Tuple[pd.DataFrame, pd.DataFrame]:
         # Cargamos los datos
-        train_df = pd.read_csv("Dataset/training.csv")
-        test_df = pd.read_csv("Dataset/test.csv")
+        train_df = pd.read_csv("dataset/training.csv")
+        test_df = pd.read_csv("dataset/test.csv")
 
         # Si queremos trabajar con una muestra podemos cambiar aqui la configuración
         if self.cfg.num_samples:

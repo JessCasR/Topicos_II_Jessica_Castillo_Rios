@@ -1,6 +1,6 @@
 # Ignorar datasets grandes
-Dataset/*.csv
-!Dataset/README.md 
+dataset/*.csv
+!dataset/README.md 
 
 # Ignorar contenido de MLflow
 mlruns/*
