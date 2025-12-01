@@ -1,2 +1,0 @@
-Los datasets originales no se incluyen en el repositorio para evitar saturar la memoria.
-Se debe agregar en esta carpeta training.csv y test.csv antes de ejecutar el proyecto, estos archivos provienen del dataset de la competencia WiDS 2024.
